@@ -1,0 +1,82 @@
+/* MovieList.css */
+.container {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .settings-icon {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .movie-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-info {
+    padding: 10px;
+  }
+  .Edit-button {
+    background-color: #45db17d8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .header-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-movie-button {
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .add-movie-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
